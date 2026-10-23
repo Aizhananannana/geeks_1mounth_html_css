@@ -1,0 +1,26 @@
+.main-image{
+    width: 600px;
+    height: 200px;
+    border-radius: 6px;
+    background-image: url(./images/example_sbn7f2S.png);
+    background-position: center;
+    background-size: cover;
+}
+
+body{
+    color: #333;
+}
+.block{
+    width: 700px;
+    margin: 0 auto;
+
+}
+.input {
+    width: 250px;
+}
+button{
+    background-color: rgb(68, 21, 199);
+    border-radius: 8px;
+    padding: 10px 20px;
+    
+}

@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 130px;
+    margin-left: 130px;
+}
+header{
+    padding: 50px 0;
+}
+.logo {
+    width: 120px;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+button {
+    padding: 12px 25px;
+    border-radius: 5%;
+}
+main .block{
+    /* margin-left: 130px;
+    margin-right: 130px; */
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+main .block{
+    background-image: url("../images/main.png");
+}
+.block {
+    min-width:1000px;
+    margin-left: 130px;
+    margin-right: 130px;
+    gap: 10px;
+    padding: 100px 0;
+}
+main h1{
+    font-size: px;
+    line-height: 109%;
+    color: #000000;
+}
+main p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 27px;
+    line-height: 140%;
+    color:#33415F;
+    max-width: 536px;
+}
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.first,
+.second,
+.third {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+}
+
+.first img,
+.second img,
+.third img {
+    width: 70px;
+    height: 70px;
+}
+
+.first h3,
+.second h3,
+.third h3 {
+    margin: 0 0 5px;
+    font-size: 30px;
+}
+
+.first p,
+.second p,
+.third p {
+    margin: 0;
+    font-size: 20px;
+    color: gray;
+    
+}
+@media (max-width: 768px) {
+
+    /* HEADER */
+    header {
+        padding: 25px 0;
+    }
+
+    .container {
+        margin: 0 20px;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .logo {
+        width: 90px;
+    }
+
+    .nav {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .nav a {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+
+    /* MAIN */
+    .block {
+        min-width: 0;
+        width: auto;
+        margin: 0 20px;
+        padding: 60px 20px;
+    }
+
+    main .block {
+        background-size: cover;
+        background-position: center;
+    }
+
+    main h1 {
+        font-size: 36px;
+        line-height: 110%;
+    }
+
+    main p {
+        font-size: 18px;
+        line-height: 140%;
+        max-width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    /* FOOTER */
+    footer {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin: 30px 20px;
+    }
+
+    .first,
+    .second,
+    .third {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .first img,
+    .second img,
+    .third img {
+        width: 50px;
+        height: 50px;
+        flex-shrink: 0;
+    }
+
+    .first h3,
+    .second h3,
+    .third h3 {
+        font-size: 20px;
+    }
+
+    .first p,
+    .second p,
+    .third p {
+        font-size: 14px;
+    }
+}

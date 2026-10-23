@@ -1,0 +1,81 @@
+.fon img {
+    width: 600px;
+    height: 200px;
+    object-fit:cover;
+    object-position: center;
+    border-radius: 6px;
+}
+body {
+    width: 700px;
+    margin: 20px auto;
+    font-size: 15px;
+    padding: 50px;
+    background-color: #eeedf3;
+    border-radius: 10px;
+}
+
+td {
+    border: 1px solid #ddd; 
+    padding: 10px 225px 10px 20px; 
+    border-radius: 5px;
+}
+
+th {
+    background-color: #6f91a2; 
+    color: white; 
+    border-radius: 5px;
+  
+}
+.firm {
+    width: 600px;
+}
+.name {
+    margin-left: 160px ;
+    width: 400px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    
+}
+.email {
+    margin-left: 153px;
+    width: 400px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+.number {
+    margin-left: 67px;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+.coment {
+    margin-left: 100px;
+    width: 400px;
+    height: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+li::marker {
+    color: rgb(104, 74, 187);
+}
+.cnopka {
+    text-align: center;
+    padding: 20px;
+}
+.nnn {
+    background-color: #6e91a2; 
+    background-color: ;
+    color: #ffffff;
+    padding: 10px 50px;
+    border-radius: 10px;
+
+}
+.adres{
+    text-align: center;
+}
+.navi{
+    text-align: center;
+}

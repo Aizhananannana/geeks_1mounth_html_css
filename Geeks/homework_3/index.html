@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+</head>
+<body>
+    <h1>Registration for the course</h1>
+    <form action="form.html" method="post">
+        <input type="text" placeholder="name" name="name" id="" required>
+        <input type="text" placeholder="firstname" name="firstname" id="" required>
+        <input type="email" name="email" placeholder="email" id="" required>
+        <input type="tel" name="phone number" placeholder="phone number" id="">
+        <input type="number" name="age" placeholder="age">
+        
+        <div>
+            <p>Which direction would you choose?</p>
+            <select name="direction" id="">
+                <option value="Frontend">Frontend</option>
+                <option value="Backend">Backend</option>
+                <option value="FulL-stack" selected >FulL-stack</option>
+                <option value="UX/UI desing">UX/UI desing</option>
+                <option value="Mobile develovment">Mobile develovment</option>
+            </select>
+        </div>
+        <div>
+            <p>In what format would u like to study?</p>
+            <label for="">
+                online
+                <input type="radio" name="format" id="" value="1" required>
+                offline
+                <input type="radio" name="format" id="" value="2" required>
+            </label>
+        </div>
+        <div>
+            <textarea name="" id="" placeholder="leave a comment"></textarea>
+        </div>
+        <div>
+            <p>Agreement to the ruls</p>
+            <input type="checkbox" name="yes" id="" value="yes" required>
+        </div>
+        <button type="submit">Send</button>
+    </form>
+    <div>
+         <h2>Course Schedule</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Time</th>
+                    <th>Topic</th>
+                    <th>Teacher</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mondey</td>
+                    <td>19:00</td>
+                    <td>tables and forms</td>
+                    <td>Felix</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
